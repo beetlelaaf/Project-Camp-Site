@@ -1,0 +1,35 @@
+.container
+{
+    background-color: transparent;
+    margin-top: 13px;
+}
+.resv_resv
+{
+}
+.card
+{
+    display: flex;
+    background-color: transparent;
+}
+.img_img
+{
+    width: 275px;
+    max-width: 275px;
+}
+.img_card
+{
+    display: flex;
+}
+.card_inhoud
+{
+    padding: 20px;
+    background-color: #f5f2f2;
+    border: black 1px solid;
+}
+.img_text
+{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 210px;
+}

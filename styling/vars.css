@@ -1,0 +1,16 @@
+:root { /* Colors used in on the website */
+    --primary: #ffffff;
+    --secondary: #eeeeee;
+    --tertiary: #dddddd;
+    
+    --admin1: #567e8a;
+    --admin2: #416069;
+
+    --accent1: #8fc0a3;
+    --accent2: #4b7f7c;
+    --accent3: #aa8a5f;
+    --accent4: #405888;
+    --accent5: #5271af;
+    --accent6: #396fdb;
+    --accent7: #2c57ac;
+}

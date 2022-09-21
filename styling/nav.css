@@ -1,0 +1,21 @@
+a.account, a.admin {
+    transition: all .5s ease;
+    width: 150px;
+}
+
+a.account:hover, a.admin:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a.account:hover span, a.admin:hover span {
+    display: none;
+}
+
+a.account:hover:before {
+    content: "Account";
+}
+
+a.admin:hover:before {
+    content: "Admin Panel";
+}

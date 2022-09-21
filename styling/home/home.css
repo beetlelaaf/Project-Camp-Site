@@ -1,0 +1,67 @@
+.parallax {
+    /* The image used */
+    background-image: url("img/home/nature_dark.jpg");
+
+    /* Set a specific height */
+    min-height: 900px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home_front_text {
+    background-color: transparent;
+    color: whitesmoke;
+    position: absolute;
+    /* display: contents; */
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    top: 25%;
+    left: 34%;
+}
+.h2_home
+{
+    font-size: 52px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("img/home/nature.jpg");
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_container
+{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+}
+.home_card
+{
+    background-color: rgba(224, 210, 210, 0.6);
+    color: black;
+    width: 25%;
+    padding: 10px;
+    max-width: 25%;
+    height: auto;
+    margin: 23px;
+}
+.home_card_p2
+{
+    overflow: hidden;
+}
+.imgimg {
+ max-width: 30%;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: var(--secondary);
+}
+
+.navcolumn {
+    height: 80vh;
+    color: white;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--admin2);
+}
+
+.contentcolumn {
+    display: none;
+    height: 80vh;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--primary);
+}
+
+.navbutton {
+    transition: all .3s ease;
+}
+
+
+.navbutton:hover {
+    background-color: var(--admin1);
+}
+
+.show {
+    display: block;
+}
+
+.active {
+    background-color: var(--accent7);
+}
+
+.loading {
+    padding-top: 250px;
+}
